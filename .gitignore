@@ -4,3 +4,4 @@ outputs
 data
 src/captum
 .ipynb_checkpoints
+scripts/__pycache__
