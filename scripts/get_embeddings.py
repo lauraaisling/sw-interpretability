@@ -4,8 +4,8 @@ import numpy as np
 import torch
 import torchvision 
 import PIL.Image as Image
-from datasets import transform
-from datasets import transform_normalize
+from my_datasets import transform
+from my_datasets import transform_normalize
 
 def get_model_state(model, paths, y, dim_c, dim_w, dim_h, SAVEFOLD=''):
     batch_size = 32
