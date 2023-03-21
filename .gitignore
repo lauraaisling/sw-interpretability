@@ -1,5 +1,6 @@
+.__pycache__
+outputs
 *.egg-info
 data
-rough-work
 src/captum
 .ipynb_checkpoints
