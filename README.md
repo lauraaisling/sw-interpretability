@@ -1,5 +1,5 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-<!-- <a name="readme-top"></a> -->
+<a name="readme-top"></a>
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -26,7 +26,7 @@ This repository contains the main code and link to the datasets necessary to rep
 <br />
 <div align="center">
   <a href="https://github.com/lomahony/sw-interpretability">
-    <img src="files/method.jpg" alt="Logo" width="80" height="80">
+    <img src="files/method.jpg" alt="Logo" width="500" height="200">
   </a>
 
   <h3 align="center">Disentangling Neuron Representations with Concept Vectors</h3>
@@ -48,54 +48,39 @@ This repository contains the main code and link to the datasets necessary to rep
 Breaking down the model into interpretable units allows us to better understand how models store representations. However, the occurrence of polysemantic neurons, or neurons that respond to multiple unrelated features, makes interpreting individual neurons challenging. This has led to the search for meaningful directions, known as concept vectors, in activation space instead of looking at individual neurons. 
 We demonstrate our method to disentangle polysemantic neurons into concept vectors consisting of linear combinations of neurons that encapsulate distinct features.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Usage
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To reproduce the results and do further exploration, follow these simple example steps:
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Anaconda, ImageNet dataset
 
-### Installation
+### Install
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
    ```
-3. Install NPM packages
+2. Install packages in a new environment
    ```sh
-   npm install
+   conda env create --name recoveredenv --file environment.yml
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+3. Extract activations 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+4. Results are in 
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+### Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CITE -->
@@ -105,25 +90,11 @@ If you make use of the code, please cite the paper in resulting publications.
 
 TODO
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+For questions, please contact Laura O'Mahony - lauraa.omahony@ul.ie
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
