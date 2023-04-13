@@ -62,7 +62,6 @@ conda, ImageNet dataset
 
 ### Install
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 1. Clone the repo
    ```sh
@@ -75,11 +74,10 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 3. Compute embeddings
    run Compute_Ilsvrc12_Embeddings.ipynb (change source of ImageNet dataset to your save location)
-   Can alter the model and layer as desired. 
+   You can also alter the model and layer to explore further. 
 
-4. Results are found by running 
-   Method.ipynb 
-   Explore various neurons and hyperparameters!
+4. Results are found by running Method.ipynb. 
+   Explore various neurons and hyperparameters to see how visualisations change in this script!
 
 
 <!-- CITE -->
