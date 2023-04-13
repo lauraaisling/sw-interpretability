@@ -54,9 +54,11 @@ We demonstrate our method to disentangle polysemantic neurons into concept vecto
 
 To reproduce the results and do further exploration, follow these simple example steps:
 
+
 ### Prerequisites
 
-Anaconda, ImageNet dataset
+conda, ImageNet dataset
+
 
 ### Install
 
@@ -64,23 +66,20 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/lomahony/sw-interpretability.git
    ```
 2. Install packages in a new environment
    ```sh
-   conda env create --name recoveredenv --file environment.yml
+   conda env create --name sw-interpretability --file environment.yml
+   conda activate sw-interpretability
    ```
-3. Extract activations 
+3. Compute embeddings
+   run Compute_Ilsvrc12_Embeddings.ipynb (change source of ImageNet dataset to your save location)
+   Can alter the model and layer as desired. 
 
-4. Results are in 
-
-
-<!-- USAGE EXAMPLES -->
-### Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+4. Results are found by running 
+   Method.ipynb 
+   Explore various neurons and hyperparameters!
 
 
 <!-- CITE -->
@@ -95,6 +94,5 @@ TODO
 ## Contact
 
 For questions, please contact Laura O'Mahony - lauraa.omahony@ul.ie
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
