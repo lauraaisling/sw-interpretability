@@ -26,7 +26,7 @@ This repository contains the main code and link to the datasets necessary to rep
 <br />
 <div align="center">
   <a href="https://github.com/lomahony/sw-interpretability">
-    <img src="files/method.jpg" alt="Logo" width="700" height="300">
+    <img src="files/method.jpg" alt="Logo" width="8s00" height="300">
   </a>
 
   <h3 align="center">Disentangling Neuron Representations with Concept Vectors</h3>
@@ -73,7 +73,7 @@ conda, ImageNet dataset
    conda activate sw-interpretability
    ```
 3. Compute embeddings
-   run Compute_Ilsvrc12_Embeddings.ipynb (change source of ImageNet dataset to your save location)
+   run Compute_Ilsvrc12_Embeddings.ipynb (change source of ImageNet dataset to your save location). 
    You can also alter the model and layer to explore further. 
 
 4. Results are found by running Method.ipynb. 
