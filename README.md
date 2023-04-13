@@ -26,7 +26,7 @@ This repository contains the main code and link to the datasets necessary to rep
 <br />
 <div align="center">
   <a href="https://github.com/lomahony/sw-interpretability">
-    <img src="files/method.jpg" alt="Logo" width="500" height="200">
+    <img src="files/method.jpg" alt="Logo" width="700" height="300">
   </a>
 
   <h3 align="center">Disentangling Neuron Representations with Concept Vectors</h3>
