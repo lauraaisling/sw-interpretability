@@ -38,7 +38,7 @@ def get_dataset(dname, source=None, train=True):
             source = f'/mnt/nas4/datasets/ToReadme/{dataset}/'
         if train:
             train_files_path = (source+'/train')
-        labels_path = os.getenv("HOME") + '/.torch/models/imagenet_class_index.json'
+        labels_path = os.path.normpath(os.getcwd() + os.sep + os.pardir) + '/files/imagenet_class_index.json'
         lim=10
     elif dname=='ilsvrc12fine':
         dname='ilsvrc12'
@@ -47,20 +47,20 @@ def get_dataset(dname, source=None, train=True):
             source = f'/mnt/nas4/datasets/ToReadme/{dataset}/'
         if train:
             train_files_path = (source+'/train')
-        labels_path = os.getenv("HOME") + '/.torch/models/imagenet_class_index.json'
-        lim=130
+        labels_path = os.path.normpath(os.getcwd() + os.sep + os.pardir) + '/files/imagenet_class_index.json'
+        lim=2000
     elif dname=='imagenette':
         if not source:
             source = f'./{dataset}2-320/'
             train_files_path=(source+'train')
-        labels_path = os.getenv("HOME") + '/.torch/models/imagenet_class_index.json'
+        labels_path = os.path.normpath(os.getcwd() + os.sep + os.pardir) + '/files/imagenet_class_index.json'
         lim=500
             
     elif dname=='imagewoof':
         if not source:
             source = f'./{dataset}2-320/'
             train_files_path=(source+'train')
-        labels_path = os.getenv("HOME") + '/.torch/models/imagenet_class_index.json'
+        labels_path = os.path.normpath(os.getcwd() + os.sep + os.pardir) + '/files/imagenet_class_index.json'
         lim=500
     
     with open(labels_path) as json_data:

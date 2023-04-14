@@ -73,9 +73,9 @@ conda, ImageNet dataset
    conda activate sw-interpretability
    ```
 3. Compute embeddings
-   run Compute_Ilsvrc12_Embeddings.ipynb (change source of ImageNet dataset to your save location). This takes some time. Reduce 'lim' in my_datasets.py to calculate embeddings for a smaller proportion of ImageNet for less space and a quicker run. 
+   run Compute_Ilsvrc12_Embeddings.ipynb (change source of ImageNet dataset to your save location). Take a coffee break. Reduce 'lim' in my_datasets.py to calculate embeddings to calculate embeddings for a smaller proportion of ImageNet for limited space and a faster run. 
    You can also alter the model and layer to explore further. 
-   Credits and further detail available in https://github.com/maragraziani/cdisco repo for this step.
+   Credit and further detail available in https://github.com/maragraziani/cdisco repo for this step.
 
 4. Results are found by running Method.ipynb. 
    Explore various neurons and hyperparameters to see how visualisations change in this script!
