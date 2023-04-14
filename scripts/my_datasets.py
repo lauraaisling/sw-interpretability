@@ -48,7 +48,7 @@ def get_dataset(dname, source=None, train=True):
         if train:
             train_files_path = (source+'/train')
         labels_path = os.getenv("HOME") + '/.torch/models/imagenet_class_index.json'
-        lim=2000
+        lim=130
     elif dname=='imagenette':
         if not source:
             source = f'./{dataset}2-320/'
