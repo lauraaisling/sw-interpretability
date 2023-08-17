@@ -101,6 +101,7 @@ def plot_dendrogram(model, **kwargs):
     # Plot the corresponding dendrogram
     plt.figure(figsize=(10,5))
     dendrogram(linkage_matrix, **kwargs)
+    plt.close()
     return linkage_matrix
 
 
@@ -123,6 +124,7 @@ def plot_cosine_similarities(top_ims, maps, min_sim=0.2, max_sim=1, label = ''):
     cbar_ax = plt.axes([0.85, 0.1, 0.075, 0.8])
     plt.colorbar(mappable=(im), cax=cbar_ax)
     plt.show()
+    plt.close()
     return activations_sim
 
 
@@ -137,6 +139,7 @@ def plot_euclidan_distances(top_activations, min_dist=None, max_dist=None, label
     cbar_ax = plt.axes([0.85, 0.1, 0.075, 0.8])
     plt.colorbar(mappable=(im), cax=cbar_ax)
     plt.show() 
+    plt.close()
     print(distance_matrix.max())
     print(distance_matrix.mean())
     return distance_matrix

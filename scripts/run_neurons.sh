@@ -1,0 +1,24 @@
+#!/bin/bash
+# python3 evec_method.py --min 0 --max 2
+# python3 neuron_method.py --min 2 --max 4
+# python3 neuron_method.py --min 0 --max 100
+# python3 neuron_method.py --min 100 --max 200
+# python3 neuron_method.py --min 200 --max 300
+# python3 neuron_method.py --min 300 --max 400
+# python3 neuron_method.py --min 400 --max 500
+# python3 neuron_method.py --min 500 --max 600
+# python3 neuron_method.py --min 600 --max 700
+# python3 neuron_method.py --min 700 --max 800
+# python3 neuron_method.py --min 800 --max 900
+# python3 neuron_method.py --min 900 --max 1000
+# python3 neuron_method.py --min 1000 --max 1100
+# python3 neuron_method.py --min 1100 --max 1200
+# python3 neuron_method.py --min 1200 --max 1300
+# python3 neuron_method.py --min 1300 --max 1400
+# python3 neuron_method.py --min 1400 --max 1500
+# python3 neuron_method.py --min 1500 --max 1600
+# python3 neuron_method.py --min 1600 --max 1700
+# python3 neuron_method.py --min 1700 --max 1800
+# python3 neuron_method.py --min 1800 --max 1900
+# python3 neuron_method.py --min 1900 --max 2000
+# python3 neuron_method.py --min 2000 --max 2048
