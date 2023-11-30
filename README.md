@@ -86,7 +86,13 @@ conda, ImageNet dataset
 
 If you make use of the code, please cite the paper in resulting publications.
 
-TODO
+@inproceedings{o2023disentangling,
+  title={Disentangling Neuron Representations with Concept Vectors},
+  author={O'Mahony, Laura and Andrearczyk, Vincent and M{\"u}ller, Henning and Graziani, Mara},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={3769--3774},
+  year={2023}
+}
 
 
 <!-- CONTACT -->
